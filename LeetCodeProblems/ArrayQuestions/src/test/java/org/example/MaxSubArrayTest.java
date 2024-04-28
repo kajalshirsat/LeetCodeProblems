@@ -4,10 +4,10 @@ import junit.framework.TestCase;
 
 public class MaxSubArrayTest  extends TestCase {
 
-    public void testMaxSubArray(){
-        MaxSubArray o = new MaxSubArray();
-        int[] arr = new int[]{5,4,-1,7,8};
-        int result = o.maxSubArray(arr);
-        assertEquals(result,23);
+    public void testMaxProdSubArray(){
+        MaxProdSubArray o = new MaxProdSubArray();
+        int[] arr = new int[]{2,3,-2,4};
+        int result = o.maxProduct(arr);
+        assertEquals(result,6);
     }
 }
