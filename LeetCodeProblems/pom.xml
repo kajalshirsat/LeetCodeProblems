@@ -8,6 +8,7 @@
   <modules>
     <module>Design Patterns</module>
     <module>ArrayQuestions</module>
+      <module>Binary</module>
   </modules>
   <name>Archetype - LeetCodeProblems</name>
   <url>http://maven.apache.org</url>

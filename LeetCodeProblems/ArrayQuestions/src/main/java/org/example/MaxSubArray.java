@@ -34,6 +34,10 @@ Constraints:
         int max = nums[0];
         int sum = Math.max(0,nums[0]);
 
+
+        // The idea is to maintain two variable, max will compare max and sum and store max value
+        //sum will contain sum so far, sum will be either pos or zero, sum will be updated after max
+
         for(int i=1; i< nums.length; i++)
         {
             sum = sum + nums[i];
