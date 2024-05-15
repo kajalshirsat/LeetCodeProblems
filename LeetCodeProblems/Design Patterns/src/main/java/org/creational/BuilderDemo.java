@@ -1,6 +1,6 @@
 package org.creational;
 
-import org.creational.BuilderHelper.*;
+import org.creational.builderHelper.*;
 
 public class BuilderDemo {
 
@@ -16,7 +16,14 @@ public class BuilderDemo {
  Cons:
  The overall complexity of the code increases since the pattern requires creating multiple new classes.
 
- Implementattion:
+ Implementation:
+
+ Usage :
+java.lang.StringBuilder#append() (unsynchronized)
+java.lang.StringBuffer#append() (synchronized)
+java.nio.ByteBuffer#put() (also in CharBuffer, ShortBuffer, IntBuffer, LongBuffer, FloatBuffer and DoubleBuffer)
+javax.swing.GroupLayout.Group#addComponent()
+All implementations java.lang.Appendable
 
  */
 

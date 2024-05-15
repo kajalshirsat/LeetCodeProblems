@@ -10,7 +10,7 @@ import java.util.Objects;
 public abstract class Prototype {
 
     /*
-    Prototype is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.
+Prototype(Clone) is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.
 
  Pros:
  You can clone objects without coupling to their concrete classes.
@@ -24,6 +24,11 @@ public abstract class Prototype {
  Implementation:
  Prototypes - an abstract class with clone and equal method
  Circle & Rectangle - extends abstract class Prototype.
+
+ Usage:
+java.lang.Object#clone() (class should implement the java.lang.Cloneable interface)
+Identification: The prototype can be easily recognized by a clone or copy methods, etc.
+
      */
 
     public int x;

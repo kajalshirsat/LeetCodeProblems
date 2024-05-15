@@ -1,4 +1,4 @@
-package org.creational.BuilderHelper;
+package org.creational.builderHelper;
 
 public class Engine {
     private final double volume;

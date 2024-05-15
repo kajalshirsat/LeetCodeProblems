@@ -5,7 +5,7 @@ import org.creational.factoryHelper.HtmlDialog;
 import org.creational.factoryHelper.WindowsDialog;
 
 /*
-Factory Method is a creational design pattern that provides an interface for creating objects in a superclass,
+Factory Method(Virtual Constructor) is a creational design pattern that provides an interface for creating objects in a superclass,
 but allows subclasses to alter the type of objects that will be created.
 
  Pros:
@@ -20,6 +20,16 @@ but allows subclasses to alter the type of objects that will be created.
  FactoryDialog is an abstract class with an abstract create method and other behavioural methods.
  Button class - interface. Windows Button and Html Button implements Button.
  WindowsDialog and HtmlDialog extends FactoryDialog and only creates of required object.
+
+Usage -
+java.util.Calendar#getInstance()
+java.util.ResourceBundle#getBundle()
+java.text.NumberFormat#getInstance()
+java.nio.charset.Charset#forName()
+java.net.URLStreamHandlerFactory#createURLStreamHandler(String) (Returns different singleton objects, depending on a protocol)
+java.util.EnumSet#of()
+javax.xml.bind.JAXBContext#createMarshaller() and other similar methods.
+
 
 
  */

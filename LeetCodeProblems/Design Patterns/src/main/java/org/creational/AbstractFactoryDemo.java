@@ -22,6 +22,13 @@ public class AbstractFactoryDemo {
  Button & Checkbox - interfaces of the components
  WindowsButton, WindowsCheckBox, MacButton, MacCheckBox - implementation of components
 
+ Usage-
+javax.xml.parsers.DocumentBuilderFactory#newInstance()
+javax.xml.transform.TransformerFactory#newInstance()
+javax.xml.xpath.XPathFactory#newInstance()
+
+
+
     */
 
     public static void main(String args[]){

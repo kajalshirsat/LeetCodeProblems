@@ -1,4 +1,4 @@
-package org.creational.BuilderHelper;
+package org.creational.builderHelper;
 
 public interface Builder {
 
