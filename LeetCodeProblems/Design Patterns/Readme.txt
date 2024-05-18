@@ -1,3 +1,7 @@
+https://refactoring.guru/design-patterns
+https://refactoring.guru/refactoring/techniques
+https://refactoring.guru/refactoring/smells
+
 //Design Patterns Principles
 1. Composition over Inheritance
 2. Code for interface not implementation
