@@ -6,10 +6,9 @@
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <modules>
-    <module>Design Patterns</module>
     <module>ArrayQuestions</module>
-      <module>Binary</module>
-      <module>StringQuestions</module>
+    <module>Binary</module>
+    <module>StringQuestions</module>
   </modules>
   <name>Archetype - LeetCodeProblems</name>
   <url>http://maven.apache.org</url>
